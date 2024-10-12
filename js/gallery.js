@@ -100,4 +100,13 @@ const images = [
 
         const bigImageURL = event.target.dataset.source;
         console.log(bigImageURL);
+
+        const modal = basicLightbox.create(`<img src="${bigImageURL}" width="800" height="600">`);
+
+    
+        modal.show();
     }
+
+
+
+    
